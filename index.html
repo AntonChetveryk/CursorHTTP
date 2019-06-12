@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTTP</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Homework HTTP</h1>
+	<h2>Task 1</h2>
+	<ol>
+		<li>Facebook</li>
+		<img src="img/facebook.png" alt="facebook" class="task1">
+		<li>Google</li>
+		<img src="img/google.png" alt="google" class="task1">
+		<li>frontend-materials.cursor.education</li>
+		<img src="img/cursor.png" alt="frontend-materials.cursor.education" class="task1">
+		<li>Duolingo</li>
+		<img src="img/duolingo.png" alt="Duolingo" class="task1">
+		<li>show-english.com</li>
+		<img src="img/show-english.png" alt="show-english.com" class="task1">
+	</ol>
+	<h2>Task 2</h2>
+	<article>
+		<h3>Поддержка прокси и поле хоста:</h3>
+
+		HTTP 1.1 имеет требуемый заголовок узла по спецификации. HTTP 1.0 официально не требует заголовка Host, но не помешает добавить его, и многие приложения (прокси) ожидают увидеть заголовок Host независимо от версии протокола.
+
+		<h3>Стойкие соединения:</h3>
+
+		HTTP 1.1 также позволяет иметь постоянные соединения, что означает, что вы можете иметь более одного запроса/ответа на одно и то же HTTP-соединение. В HTTP 1.0 вам нужно было открыть новое соединение для каждой пары "запрос/ответ". И после каждого ответа соединение будет закрыто. Это приводит к некоторым большим проблемам с эффективностью из-за TCP Slow Start.
+
+		<h3>Метод OPTIONS:</h3>
+
+
+		HTTP/1.1 вводит метод OPTIONS. HTTP-клиент может использовать этот метод для определения возможностей HTTP-сервера. Он в основном используется для совместного использования ресурсов Cross Origin в веб-приложениях.
+
+		<h3>Кэширование:</h3>
+
+		HTTP 1.0 поддерживал кэширование через заголовок: If-Modified-Since. HTTP 1.1 расширяет поддержку кеширования, используя что-то, называемое тегом сущности. Если 2 ресурса одинаковы, то они будут иметь те же теги сущностей. HTTP 1.1 также добавляет условные заголовки If-Unmodified-Since, If-Match, If-None-Match.
+
+		<h3>Основное различие методов GET и POST состоит в способе передачи данных веб-формы обрабатывающему скрипту, а именно:</h3>
+
+		<p>Метод GET отправляет скрипту всю собранную информацию формы как часть URL: http://www.komtet.ru/script.php?<strong>login=admin&name=komtet</strong> Метод POST передает данные таким образом, что пользователь сайта уже не видит передаваемые скрипту данные: http://www.komtet.ru/script.php
+		</p>
+
+	</article>
+	<h2>Task 4</h2>
+</body>
+
+</html>
