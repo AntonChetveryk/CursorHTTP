@@ -13,14 +13,41 @@
 	<ol>
 		<li>Facebook</li>
 		<img src="img/facebook.png" alt="facebook" class="task1">
+		<ol>
+			<li><strong>Cache-Control- </strong>Указывает директивы для запросов и ответов.</li>
+			<li><strong>content-lenght- </strong>длина контента</li>
+			<li><strong>content-type- </strong>тип контента, кодировка</li>
+			<li><strong>Expires- </strong>Дата / время, после которого ответ считается устаревшим.</li>
+			<li><strong>location- </strong> Указывает URL-адрес для перенаправления страницы.</li>
+			<li><strong>status-301 </strong> Перемещён на постоянной основе</li>
+			<li><strong>Strict-Transport-Security (HSTS)- </strong> Принудительная связь с использованием HTTPS вместо HTTP.</li>
+			<li><strong>vary-Transport-Security (HSTS)- </strong> Определяет, как сопоставить заголовки будущих запросов, чтобы решить, можно ли использовать кэшированный ответ, а не запрашивать новый с исходного сервера.</li>
+		</ol>
 		<li>Google</li>
 		<img src="img/google.png" alt="google" class="task1">
+		<ol>
+			<li><strong>Alt-Svc- </strong> Используется для перечисления альтернативных способов доступа к этой услуге.</li>
+			<li><strong>Content-Encoding - </strong> Заголовок объекта используется для сжатия медиа-типа. Когда оно присутствует, его значение указывает, какие кодировки были применены к телу объекта. Это позволяет клиенту знать, как декодировать, чтобы получить медиа-тип, на который ссылается заголовок Content-Type.</li>
+			<li><strong>Server- </strong> Contains information about the software used by the origin server to handle the request.</li>
+		</ol>
 		<li>frontend-materials.cursor.education</li>
 		<img src="img/cursor.png" alt="frontend-materials.cursor.education" class="task1">
+		<ol>
+			<li><strong>Via- </strong> Добавляются прокси, как прямой, так и обратный прокси, и могут появляться в заголовках запросов и заголовках ответов.</li>
+			<li><strong>Etag- </strong> Это валидатор, уникальная строка, идентифицирующая версию ресурса. Условные запросы, использующие If-Match и If-None-Match, используют это значение для изменения поведения запроса.</li>
+		</ol>
 		<li>Duolingo</li>
 		<img src="img/duolingo.png" alt="Duolingo" class="task1">
+		<ol>
+			<li><strong>Pragma- </strong> Специфичный для реализации заголовок, который может иметь различные эффекты в любом месте цепочки запрос-ответ. Используется для обратной совместимости с кешами HTTP / 1.0, где заголовок Cache-Control еще не присутствует.</li>
+			<li><strong>Set-Cookie- </strong> Отправить куки с сервера на пользовательский агент.</li>
+		</ol>
 		<li>show-english.com</li>
 		<img src="img/show-english.png" alt="show-english.com" class="task1">
+		<ol>
+			<li><strong>X-Frame-Options (XFO)- </strong> Указывает, нужно ли браузеру отображать страницу в frame, iframe, embed или object.</li>
+			<li><strong>X-Powered-By- </strong> Может быть установлен средой хостинга или другими средами и содержит информацию о них, не предоставляя никакой полезности приложению или его посетителям. Снимите этот заголовок, чтобы избежать потенциальных уязвимостей.</li>
+		</ol>
 	</ol>
 	<h2>Task 2</h2>
 	<article>
@@ -73,6 +100,8 @@
 	</p>
 	<h2>Task 5</h2>
 	<img src="img/Task5.png" alt="" class='task1'>
+	<h2>differences between HEAD and GET methods</h2>
+	<p>Метод HEAD идентичен GET, за исключением того, что сервер НЕ ДОЛЖЕН возвращать в ответе тело сообщения (message-body). Метаинформации, содержащейся в HTTP заголовках ответа на запрос HEAD СЛЕДУЕТ быть идентичной информации, представляемой в ответ на запрос GET. Этот метод может использоваться для получения метаинформации об объекте запроса без непосредственной пересылки тела объекта (entity-body). Этот метод часто используется для тестирования гипертекстовых связей в целях проверки правильности, достижимости, и времени модификации.</p>
 	<p>В ответе не получил код во вкладке Body(отсутсвует HTML код)
 	</p>
 	<h2>Task 6</h2>
